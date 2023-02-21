@@ -6,26 +6,7 @@ FyListen.listenTo(this,new LifecycleListener(){...} );
 ```
 
 ## 0. 依赖导入
-
-step1: 在项目根 build.gradle 中导入
-
-```css
-allprojects {
-    repositories {
-        ...
-        maven { url 'https://jitpack.io' }
-    }
-}
-```
-
-step2: 添加依赖：
-
-```css
-dependencies {
-    implementation 'com.github.StudyNoteOfTu:FyListen:Tag'
-}
-```
-
+暂未更新
 ## 1. 为什么选择 FyListen？
 
 在 Android 框架中定义的大多数应用组件都存在生命周期。生命周期由操作系统或进程中运行的框架代码管理。它们是 Android 工作原理的核心，应用必须遵循它们。如果不这样做，可能会引发内存泄漏甚至应用崩溃。
